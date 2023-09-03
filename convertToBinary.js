@@ -13,6 +13,7 @@
 // toBinary(11) /* should return 1011 */
 
 //toString(2) converts num into string binary so 5 would be 101
+//binary starts from power of 2 from most left
 
 
 function toBinary(n){
