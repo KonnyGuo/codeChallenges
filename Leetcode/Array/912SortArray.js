@@ -115,3 +115,5 @@ var sortArray = function (nums) {
 
   return mergeSort(nums);
 };
+
+// known as divide and conquer as well

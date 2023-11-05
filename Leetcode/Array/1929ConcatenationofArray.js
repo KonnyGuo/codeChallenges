@@ -21,8 +21,8 @@
 // - ans = [nums[0],nums[1],nums[2],nums[3],nums[0],nums[1],nums[2],nums[3]]
 // - ans = [1,3,2,1,1,3,2,1]
 
-
-var getConcatenation = function(nums) {
-    let newArr = [...nums,...nums]
-    return newArr
+var getConcatenation = function (nums) {
+  // using the ... seperators to deconstruct arrays
+  let newArr = [...nums, ...nums];
+  return newArr;
 };

@@ -14,7 +14,7 @@ var topKFrequent = function (nums, k) {
   const frequencyMap = new Map();
 
   // Count the frequency of each element
-  //    For each number num in nums, it checks if num is already a key in the map. If it is, it increments the count by 1; otherwise, it sets the count to 1. The || 0 part ensures that if get(num) returns undefined (meaning num is not in the map yet), it defaults to 0.
+  // For each number num in nums, it checks if num is already a key in the map. If it is, it increments the count by 1; otherwise, it sets the count to 1. The || 0 part ensures that if get(num) returns undefined (meaning num is not in the map yet), it defaults to 0.
   for (const num of nums) {
     frequencyMap.set(num, (frequencyMap.get(num) || 0) + 1);
   }
