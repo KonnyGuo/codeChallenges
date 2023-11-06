@@ -9,18 +9,19 @@
 
 // Input: s = "anagram", t = "nagaram"
 // Output: true
+
 // Example 2:
 
 // Input: s = "rat", t = "car"
 // Output: false
 
-var isAnagram = function(s, t) {
-    SArr = s.split("")
-    tArr = t.split("")
-    sortedSArr = SArr.sort().join("")
-    sortedTArr = tArr.sort().join("")
-    if(sortedSArr === sortedTArr) {
-        return true
-    }
-    return false
+var isAnagram = function (s, t) {
+  SArr = s.split("");
+  tArr = t.split("");
+  sortedSArr = SArr.sort().join("");
+  sortedTArr = tArr.sort().join("");
+  if (sortedSArr === sortedTArr) {
+    return true;
+  }
+  return false;
 };
